@@ -18,8 +18,8 @@ Architecture of EMYL and implement their own version,
 With their own investors.
  
 3. The biggest breakthroughs in EMYL are the following:
-- [Datong Token](https://github.com/udexon/DatongToken)
-- UCollab(https://github.com/udexon/UCollab) 
+- [Datong Token](https://github.com/udexon/DatongToken): a breakthrough in public key cryptography, a secret hidden in plain sight (literally) that enables the rest of 99% of ordinary users to enjoy using cryptocurrencies WITHOUT creating a login at any existing server.
+- [UCollab](https://github.com/udexon/UCollab) 
 
 4. Complete the following exercise EMYL#001 to qualify
 Yourself as an EMYL agent, which qualifies yourself to
