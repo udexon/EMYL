@@ -1,6 +1,6 @@
 ### EMYL: Earn Money as You Learn
 
-Is it possible to ___Earn Money as You Learn__?
+Is it possible to ___Earn Money as You Learn___?
 
 1. Or is this just another money game scam?
 
