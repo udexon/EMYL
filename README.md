@@ -1,4 +1,4 @@
-### EMYL: Earn Money as You Learn
+### EMYL: _Earn Money as You Learn_
 
 Is it possible to ___Earn Money as You Learn___?
 
