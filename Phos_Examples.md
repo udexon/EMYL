@@ -1,6 +1,9 @@
 ```
 $ php phos.php HELLO s:
-fgl_s 442 < 3 > array ( 0 => array ( 0 => 'phos.php', 1 => 'HELLO', 2 => 's:', ), 1 => 'phos.php', 2 => 'HELLO', )
+fgl_s 442 < 3 > array ( 
+0 => array ( 0 => 'phos.php', 1 => 'HELLO', 2 => 's:', ), 
+1 => 'phos.php', 
+2 => 'HELLO', )
 
 $ php phos.php now: s:
 fgl_s 442 < 3 > array ( 0 => array ( 0 => 'phos.php', 1 => 'now:', 2 => 's:', ), 1 => 'phos.php', 2 => '2019-12-17T20:27:31.525', )
@@ -10,4 +13,15 @@ fgl_s 442 < 4 > array ( 0 => array ( 0 => 'phos.php', 1 => 'now:', 2 => 'colon:'
 
 $ php phos.php now: colon: explode: s:
 fgl_s 442 < 3 > array ( 0 => array ( 0 => 'phos.php', 1 => 'now:', 2 => 'colon:', 3 => 'explode:', 4 => 's:', ), 1 => 'phos.php', 2 => array ( 0 => '2019-12-17T20', 1 => '22', 2 => '36.535', ), )
+```
+
+```
+$ java -cp '.:../../libs/*' com.udexon.smashlet.Phos 1 sstr: esp:
+ 1
+
+$ java -cp '.:../libs/*' com.udexon.smashlet.Phos 1 2 + now: sstr: esp:
+ 3 2019-12-17T20:38:37.906005 
+ 
+$ java -cp '.:../libs/*' com.udexon.smashlet.Phos 1 2 + now: colon: explode: sstr: esp:
+ 3 ["2019-12-17T20","38","18.131809"]  
 ```
