@@ -44,9 +44,19 @@ It is dues to this simplicity that the Phos stack machine shell (smashlet) can b
 
 #### Phos Smashlet in Java
 
-(upload to github ...)
+https://github.com/udexon/EMYL/tree/master/Smashlet_Java
+
+This Phos Java Smashlet module is compatible with Android.
+
+Instruction to compile:
+
+https://github.com/udexon/EMYL/blob/master/Smashlet_Java/compile_Phos.sh
+
+To execute:
 
 ```
+$ cd build/classes
+
 $ java -cp '.:../../libs/*' com.udexon.smashlet.Phos 1 sstr: esp:
  1
 
@@ -57,6 +67,10 @@ $ java -cp '.:../libs/*' com.udexon.smashlet.Phos 1 2 + now: colon: explode: sst
  3 ["2019-12-17T20","38","18.131809"]  
 ```
 
+In the examples above,
+- `sstr:` "convert stack items to string", is equivalent to inspect stack with `S` in the JavaScript examples above.
+- `esp:` echo ending with space.
+- `+` adds 2 items on stack, pushes result back on top of stack.
 
 #### Phos Smashlet in PHP
 
