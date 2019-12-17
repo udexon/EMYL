@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.github.pwittchen.reactivesensors"
+    >
+
+  <application
+      android:allowBackup="true"
+      android:icon="@mipmap/ic_launcher"
+      android:label="@string/app_name"
+      android:theme="@style/AppTheme"
+      >
+    <activity
+        android:name=".app.MainActivity"
+        android:label="@string/app_name"
+        >
+      <intent-filter>
+        <action android:name="android.intent.action.MAIN"/>
+        <category android:name="android.intent.category.LAUNCHER"/>
+      </intent-filter>
+    </activity>
+
+    <activity android:name=".app.samples.GyroscopeActivity"/>
+    <activity android:name=".app.samples.OrientationActivity"/>
+    <activity android:name=".app.samples.AccelerometerActivity"/>
+    <activity android:name=".app.samples.AmbientTemperatureActivity"/>
+    <activity android:name=".app.samples.GravityActivity"/>
+    <activity android:name=".app.samples.LightActivity"/>
+    <activity android:name=".app.samples.LinearAccelerationActivity"/>
+    <activity android:name=".app.samples.MagneticFieldActivity"/>
+    <activity android:name=".app.samples.PressureActivity"/>
+    <activity android:name=".app.samples.ProximityActivity"/>
+    <activity android:name=".app.samples.RelativeHumidityActivity"/>
+    <activity android:name=".app.samples.RotationVectorActivity"/>
+    <activity android:name=".app.samples.TemperatureActivity"/>
+
+  </application>
+
+</manifest>
