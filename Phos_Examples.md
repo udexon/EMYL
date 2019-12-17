@@ -63,7 +63,8 @@ $ java -cp '.:../../libs/*' com.udexon.smashlet.Phos 1 sstr: esp:
 $ java -cp '.:../libs/*' com.udexon.smashlet.Phos 1 2 + now: sstr: esp:
  3 2019-12-17T20:38:37.906005 
  
-$ java -cp '.:../libs/*' com.udexon.smashlet.Phos 1 2 + now: colon: explode: sstr: esp:
+$ java -cp '.:../libs/*' com.udexon.smashlet.Phos 1 2 + \
+now: colon: explode: sstr: esp:
  3 ["2019-12-17T20","38","18.131809"]  
 ```
 
