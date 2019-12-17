@@ -8,7 +8,7 @@ Although many tutorials and reference materials for Forth exist, they are perhap
 
 #### Phos Smashlet in JavaScript
 
-This tutorial is written for both beginners as well as experts in mind. Such a combination is rather rare and is perhaps a proof of the elegance of the stack machine architecture as well as the Reverse Polish Notation. Beginners may skip sections marked with "EXPERT".
+This tutorial is written for both beginners as well as experts in mind. Such a combination is rather rare and is perhaps a proof of the elegance of the stack machine architecture as well as the Reverse Polish Notation. Beginners may skip sections marked with __[EXPERT]__.
 
 1. Open http://phos.epizy.com/smashlet/?i=1 using a desktop browser.
 
@@ -33,7 +33,7 @@ S
 - `F("now: colon:")` pushes an additional colon `:` character on to the stack. 
 - `F("now: colon: explode:")` splits the date time string using colon as the delimiter and pushes the results (an array containing parts separated by colon) on to the stack.
 
-[EXPERT] The source code for the above can be viewed at http://phos.epizy.com/smashlet/pdo/fgl.js
+__[EXPERT]__ The source code for the above can be viewed at http://phos.epizy.com/smashlet/pdo/fgl.js
 
 In summary, the operations of the stack machine are:
 - push a non-function token to the stack
@@ -56,7 +56,6 @@ $ java -cp '.:../libs/*' com.udexon.smashlet.Phos 1 2 + now: sstr: esp:
 $ java -cp '.:../libs/*' com.udexon.smashlet.Phos 1 2 + now: colon: explode: sstr: esp:
  3 ["2019-12-17T20","38","18.131809"]  
 ```
-
 
 
 #### Phos Smashlet in PHP
