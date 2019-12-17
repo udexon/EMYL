@@ -1,3 +1,9 @@
+### Phos Smashlet (Stack Machine Shell) Examples
+
+Stack machine is perhaps one of the most ubiquitous but yet under-exposed systems in computer systems. They exist everywhere from the proprietary stack engine in microproessors to the interpreter engine in almost all modern high level programming languages, e.g. PHP, Java, JavaScript, Python etc.
+
+The Forth programming language is perhaps the oldest, well developed and most popular stack machine focused programming language. We have extended the Forth programming language to create ___Phos stack machine shell___ that can be implemented in any known high level programming language.
+
 #### Phos JavaScript
 
 1. Open http://phos.epizy.com/smashlet/?i=1
