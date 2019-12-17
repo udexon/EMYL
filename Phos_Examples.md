@@ -6,9 +6,9 @@ The Forth programming language is perhaps the oldest, well developed and most po
 
 Although many tutorials and reference materials for Forth exist, they are perhaps too focused on stack machine that programmers of modern programming language find them difficult to grasp. As such, this project is created specifically to introduce stack machine programming from the perspectives of modern programming languages to a wider audience, from six years olds to sixty years olds, quite literally, as we believe the Reverse Polish Notation that forms the foundation of Forth and Phos, is such a wonderful and elegant syntax that can serve as the unifying script to bridge programming languages as well as mathematics.
 
-#### Phos JavaScript
+#### Phos Smashlet in JavaScript
 
-This tutorial is written for both beginners as well as experts in mind. Such a combination is rather rare and is perhaps a proof of the elegance of the stack machine architecture as well as the Reverse Polish Notation. Beginners may skip sections marked with "EXPERTS".
+This tutorial is written for both beginners as well as experts in mind. Such a combination is rather rare and is perhaps a proof of the elegance of the stack machine architecture as well as the Reverse Polish Notation. Beginners may skip sections marked with "EXPERT".
 
 1. Open http://phos.epizy.com/smashlet/?i=1 using a desktop browser.
 
@@ -33,6 +33,34 @@ S
 - `F("now: colon:")` pushes an additional colon `:` character on to the stack. 
 - `F("now: colon: explode:")` splits the date time string using colon as the delimiter and pushes the results (an array containing parts separated by colon) on to the stack.
 
+[EXPERT] The source code for the above can be viewed at http://phos.epizy.com/smashlet/pdo/fgl.js
+
+In summary, the operations of the stack machine are:
+- push a non-function token to the stack
+- execute a host programming language (JavaScript) function mapped by a function token
+
+It is dues to this simplicity that the Phos stack machine shell (smashlet) can be implemented in any known host programming language, with around 20 lines of code for the core operations described above.
+
+
+#### Phos Smashlet in Java
+
+(upload to github ...)
+
+```
+$ java -cp '.:../../libs/*' com.udexon.smashlet.Phos 1 sstr: esp:
+ 1
+
+$ java -cp '.:../libs/*' com.udexon.smashlet.Phos 1 2 + now: sstr: esp:
+ 3 2019-12-17T20:38:37.906005 
+ 
+$ java -cp '.:../libs/*' com.udexon.smashlet.Phos 1 2 + now: colon: explode: sstr: esp:
+ 3 ["2019-12-17T20","38","18.131809"]  
+```
+
+
+
+#### Phos Smashlet in PHP
+
 ```
 $ php phos.php HELLO s:
 fgl_s 442 < 3 > array ( 
@@ -50,13 +78,3 @@ $ php phos.php now: colon: explode: s:
 fgl_s 442 < 3 > array ( 0 => array ( 0 => 'phos.php', 1 => 'now:', 2 => 'colon:', 3 => 'explode:', 4 => 's:', ), 1 => 'phos.php', 2 => array ( 0 => '2019-12-17T20', 1 => '22', 2 => '36.535', ), )
 ```
 
-```
-$ java -cp '.:../../libs/*' com.udexon.smashlet.Phos 1 sstr: esp:
- 1
-
-$ java -cp '.:../libs/*' com.udexon.smashlet.Phos 1 2 + now: sstr: esp:
- 3 2019-12-17T20:38:37.906005 
- 
-$ java -cp '.:../libs/*' com.udexon.smashlet.Phos 1 2 + now: colon: explode: sstr: esp:
- 3 ["2019-12-17T20","38","18.131809"]  
-```
