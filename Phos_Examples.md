@@ -4,6 +4,8 @@ Stack machine is perhaps one of the most ubiquitous but yet under-exposed system
 
 The Forth programming language is perhaps the oldest, well developed and most popular stack machine focused programming language. We have extended the Forth programming language to create ___Phos stack machine shell___ that can be implemented in any known high level programming language.
 
+Although many tutorials and reference materials for Forth exist, they are perhaps too focused on stack machine that programmers of modern programming language find them difficult to grasp. As such, this project is created specifically to introduce stack machine programming from the perspectives of modern programming languages to a wider audience, from six years olds to sixty years olds, quite literally, as we believe the Reverse Polish Notation that forms the foundation of Forth and Phos, is such a wonderful and elegant syntax that can serve as the unifying script to bridge programming languages as well as mathematics.
+
 #### Phos JavaScript
 
 1. Open http://phos.epizy.com/smashlet/?i=1
