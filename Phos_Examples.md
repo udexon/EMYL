@@ -8,11 +8,30 @@ Although many tutorials and reference materials for Forth exist, they are perhap
 
 #### Phos JavaScript
 
-1. Open http://phos.epizy.com/smashlet/?i=1
+This tutorial is written for both beginners as well as experts in mind. Such a combination is rather rare and is perhaps a proof of the elegance of the stack machine architecture as well as the Reverse Polish Notation. Beginners may skip sections marked with "EXPERTS".
 
-2. Open Developer Console.
+1. Open http://phos.epizy.com/smashlet/?i=1 using a desktop browser.
+
+2. Open the Developer Console.
+
+Key in the following commands as shown in the screenshot below:
+
+```
+F("now:")
+S
+F("now: colon:")
+S
+F("now: colon: explode:")
+S
+```
 
 <img src="https://github.com/udexon/EMYL/blob/master/Phos_now_JavaScript.png" width=300>
+
+`S`, the data stack, is implemented as a global array in JavaScript. Entering `S` on its own in the developer console will print out the its contents. 
+
+- `F("now:")` results in the current time to be _pushed on to the stack_. 
+- `F("now: colon:")` pushes an additional colon `:` character on to the stack. 
+- `F("now: colon: explode:")` splits the date time string using colon as the delimiter and pushes the results (an array containing parts separated by colon) on to the stack.
 
 ```
 $ php phos.php HELLO s:
