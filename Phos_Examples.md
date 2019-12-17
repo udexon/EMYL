@@ -1,3 +1,11 @@
+#### Phos JavaScript
+
+1. Open http://phos.epizy.com/smashlet/?i=1
+
+2. Open Developer Console.
+
+<img src="https://github.com/udexon/EMYL/blob/master/Phos_now_JavaScript.png" width=300>
+
 ```
 $ php phos.php HELLO s:
 fgl_s 442 < 3 > array ( 
