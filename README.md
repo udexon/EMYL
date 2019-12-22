@@ -22,7 +22,7 @@ with their own investors.
 - [Datong Token](https://github.com/udexon/DatongToken): a breakthrough in public key cryptography, a secret hidden in plain sight (literally) that enables the rest of 99% of ordinary users to enjoy using cryptocurrencies WITHOUT creating a login at any existing server.
 - [UCollab](https://github.com/udexon/UCollab): a breakthrough in programming and mathematics, enabling anyone, from beginners to experts, to learn a new programming language as well as abstract mathematics, using ___only one universal script, Phos___ (Forth like Reverse Polish Notation), ___one token at a time___. 
 
-4. Complete the following exercise EMYL#001 to qualify
+4. Complete the following exercise [EMYL#001](https://github.com/udexon/EMYL/blob/master/Phos_Examples.md) to qualify
 yourself as an EMYL agent, which qualifies yourself to
 recruit your own EMYL agents.
 
