@@ -14,7 +14,7 @@ Sender A must include own public key in payment token, so that Recipient B can e
 
 Then Agent C can send an encrypted message to Agent D, who lives in the same country P as Sender A, to verify payment.
 
-Once the payment chain is verified, Agent D may collect cash from Sender A physically or use the national banking system in country P to collect the payment. Agent D will pay Agent C using their own international payment method. Agent C can then pay Recipient B cash physically in person, or using the national banking system in country Q.
+Once the payment chain is verified, Agent C may collect cash from Sender A physically or use the national banking system in country P to collect the payment. Agent C will pay Agent D using their own international payment method. Agent B can then pay Recipient B cash physically in person, or using the national banking system in country Q.
 
 
 ### (Non)-Adoption of Cryptocurrencies
