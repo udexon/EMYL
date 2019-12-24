@@ -16,17 +16,20 @@ Step 1: Verifying payment chain (identifying Agents)
 
 (Add diagram to illustrate chain of messages A --> B --> D --> C --> A )
 
-  - Sender A requests Recipient B's public key. 
-  - Sender A first encrypt a raw message MA1 with own public key PBKA as encrypted messages CA1.
-  - Sender A then encrypt encrypted message CA1 with Recipient B's public key PBKB as encrypted message CA2.
-  - Sender A sends CA2 to Recipient B. 
-  - Recipient B decrypts CA2 using own private key PVKB. 
+<ol type="a">
+  <li>- Sender A requests Recipient B's public key. </li>
 
-Sender A must include own public key in payment token, so that Recipient B can encrypt message MB and send it to Agent D, who lives in the same country Q as B.
+  <li>- Sender A first encrypt a raw message MA1 with own public key PBKA as encrypted messages CA1. </li>
+  <li>- Sender A then encrypt encrypted message CA1 with Recipient B's public key PBKB as encrypted message CA2.</li>
+  <li>- Sender A sends CA2 to Recipient B. </li>
+  <li>- Recipient B decrypts CA2 using own private key PVKB. </li>
 
-- Then Agent D can send an encrypted message to Agent C, who lives in the same country P as Sender A, to verify payment.
+<li> Sender A must include own public key in payment token, so that Recipient B can encrypt message MB and send it to Agent D, who lives in the same country Q as B. </li>
 
-- Agent C then sends message CA1 back to Sender A, who then decrypts CA1 to verify that Agent C obtained CA1 via a chain of agents from Recipient B.
+<li>- Then Agent D can send an encrypted message to Agent C, who lives in the same country P as Sender A, to verify payment. </li>
+
+<li>- Agent C then sends message CA1 back to Sender A, who then decrypts CA1 to verify that Agent C obtained CA1 via a chain of agents from Recipient B. </li>
+</ol>
 
 Step 2: Execute payment transactions
 
