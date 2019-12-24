@@ -8,6 +8,8 @@ Datong Token (name? Datong Tipping？) problems ....
 
 <img src="https://github.com/udexon/DatongToken/blob/master/pay_wu.png" width="400"  />
 
+Scenario 1 involves an international conventional payment method (Western Union) without cryptocurrency so that users can confirm that Datong Token can be used without cryptocurrency.
+
 Consider a scenario where Sender A who lives in country P wishes to send an amount X in currency K to Recipient B who lives in country Q.
 
 Step 1: Verifying payment chain (identifying Agents)
@@ -15,12 +17,16 @@ Step 1: Verifying payment chain (identifying Agents)
 (Add diagram to illustrate chain of messages A --> B --> D --> C --> A )
 
   - Sender A requests Recipient B's public key. 
-  - A encrypts message MA (Datong payment token) and sends token to Recipient B. 
-  - Recipient B decrypts message using own private key. 
+  - Sender A first encrypt a raw message MA1 with own public key PBKA as encrypted messages CA1.
+  - Sender A then encrypt encrypted message CA1 with Recipient B's public key PBKB as encrypted message CA2.
+  - Sender A sends CA2 to Recipient B. 
+  - Recipient B decrypts CA2 using own private key PVKB. 
 
 Sender A must include own public key in payment token, so that Recipient B can encrypt message MB and send it to Agent D, who lives in the same country Q as B.
 
 - Then Agent D can send an encrypted message to Agent C, who lives in the same country P as Sender A, to verify payment.
+
+- Agent C then sends message CA1 back to Sender A, who then decrypts CA1 to verify that Agent C obtained CA1 via a chain of agents from Recipient B.
 
 Step 2: Execute payment transactions
 
