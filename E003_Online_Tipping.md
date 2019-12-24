@@ -4,6 +4,8 @@ Online tipping is one of the most lucrative captive markets nowadays. China and 
 
 Datong Token (name? Datong Tipping？) problems ....
 
+<img src="https://github.com/udexon/DatongToken/blob/master/pay_bch.png" width="400"  />
+
 Consider a scenario where Sender A who lives in country P wishes to send an amount X in currency K to Recipient B who lives in country Q.
 
 Sender A requests Recipient B's public key. A encrypts message MA (Datong payment token) and sends token to B. Recipient B decrypts message using own private key. 
