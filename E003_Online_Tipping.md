@@ -12,6 +12,8 @@ Consider a scenario where Sender A who lives in country P wishes to send an amou
 
 Step 1: Verifying payment chain (identifying Agents)
 
+(Add diagram to illustrate chain of messages A --> B --> D --> C --> A )
+
   - Sender A requests Recipient B's public key. 
   - A encrypts message MA (Datong payment token) and sends token to Recipient B. 
   - Recipient B decrypts message using own private key. 
@@ -21,6 +23,8 @@ Sender A must include own public key in payment token, so that Recipient B can e
 - Then Agent D can send an encrypted message to Agent C, who lives in the same country P as Sender A, to verify payment.
 
 Step 2: Execute payment transactions
+
+(Add diagram to illustrate chain of payments A --> C --> D --> D )
 
 - Once the payment chain is verified, Agent C may collect cash from Sender A physically or use the national banking system in country P to collect the payment. 
 - Agent C will pay Agent D using their own international payment method. 
