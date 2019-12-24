@@ -10,13 +10,21 @@ Datong Token (name? Datong Tipping？) problems ....
 
 Consider a scenario where Sender A who lives in country P wishes to send an amount X in currency K to Recipient B who lives in country Q.
 
-Sender A requests Recipient B's public key. A encrypts message MA (Datong payment token) and sends token to B. Recipient B decrypts message using own private key. 
+Step 1: Verifying payment chain (identifying Agents)
 
-Sender A must include own public key in payment token, so that Recipient B can encrypt message MB and send it to Agent C, who lives in the same country Q as B.
+  - Sender A requests Recipient B's public key. 
+  - A encrypts message MA (Datong payment token) and sends token to Recipient B. 
+  - Recipient B decrypts message using own private key. 
 
-Then Agent C can send an encrypted message to Agent D, who lives in the same country P as Sender A, to verify payment.
+Sender A must include own public key in payment token, so that Recipient B can encrypt message MB and send it to Agent D, who lives in the same country Q as B.
 
-Once the payment chain is verified, Agent C may collect cash from Sender A physically or use the national banking system in country P to collect the payment. Agent C will pay Agent D using their own international payment method. Agent B can then pay Recipient B cash physically in person, or using the national banking system in country Q.
+- Then Agent D can send an encrypted message to Agent C, who lives in the same country P as Sender A, to verify payment.
+
+Step 2: Execute payment transactions
+
+- Once the payment chain is verified, Agent C may collect cash from Sender A physically or use the national banking system in country P to collect the payment. 
+- Agent C will pay Agent D using their own international payment method. 
+- Agent D can then pay Recipient B cash physically in person, or using the national banking system in country Q.
 
 After Sender A sends the token to Recipient B, presumably via a mobile chat service such as WhatsApp, Sender B will use a Datong app to process then token, then send a new token to Agent C. Agent C again will use a Datong app to process the token, and send a new token to Agent D. Agent D will also use a Datong app to process the token, and send a new token to Sender A.
 
