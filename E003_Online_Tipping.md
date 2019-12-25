@@ -19,7 +19,7 @@ Step 1: Verifying payment chain (identifying Agents)
 <img src="https://github.com/udexon/DatongToken/blob/master/payment_chain.png" width="400"  />
 
 <ol type="a">
-  <li>- Sender A wishes to tip Recipient B. A leaves a comment on B's social media post (Facebook, Instagram, YouTube, etc.) comprising a short link to A's Datong Token, together with the tipping amount, as well as other details. B then open the short link using Datong app and begins a chat session with A. Sender A then requests Recipient B's public key. </li>
+  <li>- Sender A wishes to tip Recipient B. A leaves a comment on B's social media post (Facebook, Instagram, YouTube, etc.) comprising a short link to A's Datong Token, together with the tipping amount, as well as other details. B then opens the short link using Datong app and begins a chat session with A. Sender A then requests Recipient B's public key. </li>
   <li>- Recipient B sends own public key PBKB to sender A. </li>
 
   <li>- Sender A first encrypt a raw message MA1 with own public key PBKA as encrypted messages CA1. </li>
