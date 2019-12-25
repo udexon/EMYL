@@ -4,6 +4,8 @@ Online tipping is one of the most lucrative captive markets nowadays. China and 
 
 Datong Token (name? Datong Tipping？) problems ....
 
+https://en.wikipedia.org/wiki/Software_token
+
 #### Scenario 1: Datong Token with Western Union
 
 <img src="https://github.com/udexon/DatongToken/blob/master/pay_wu.png" width="400"  />
