@@ -20,6 +20,7 @@ Step 1: Verifying payment chain (identifying Agents)
 
 <ol type="a">
   <li>- Sender A requests Recipient B's public key. </li>
+  <li>- Recipient B sends own public key PBKB to sender A. </li>
 
   <li>- Sender A first encrypt a raw message MA1 with own public key PBKA as encrypted messages CA1. </li>
   <li>- Sender A then encrypt encrypted message CA1 with Recipient B's public key PBKB as encrypted message CA2.</li>
