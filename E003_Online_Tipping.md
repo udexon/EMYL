@@ -55,8 +55,7 @@ Let's illustrate the two scenarios in diagrams:
 
 We now have sufficient understanding to compare and analyse various fundamental issues concerning international financial transactions, cryptocurrencies and Datong Token.
 
-From the technical perspective, what are the roles of RSA in both scenarios?
-
+- From the technical perspective, what are the roles of RSA in both scenarios?
 
 Firstly, as with Bitcoin, we use RSA cryptosystem to authenticate the users (Sender, Recipient, Agents). 
 
