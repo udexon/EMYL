@@ -36,7 +36,7 @@ Step 1: Verifying payment chain (identifying Agents)
 
 Step 2: Execute payment transactions
 
-(Add diagram to illustrate chain of payments A --> C --> D --> D )
+<img src="https://github.com/udexon/DatongToken/blob/master/pay_wu.png" width="400"  />
 
 - Once the payment chain is verified, Agent C may collect cash from Sender A physically or use the national banking system in country P to collect the payment. 
 - Agent C will pay Agent D using their own international payment method. 
