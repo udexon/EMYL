@@ -49,11 +49,17 @@ Now consider this variation:
 
 -- Agent C sends money using cryptocurrency L to Agent D.
 
+
+### Novel Applications of Public Key Encryption
+
+We now have sufficient understanding to compare and analyse various fundamental issues concerning international financial transactions, cryptocurrencies and Datong Token.
+
 Let's illustrate the two scenarios in diagrams:
 
 <img src="https://github.com/udexon/DatongToken/blob/master/pay_bch.png" width="400"  />
 
-We now have sufficient understanding to compare and analyse various fundamental issues concerning international financial transactions, cryptocurrencies and Datong Token.
+<img src="https://github.com/udexon/DatongToken/blob/master/pay_wu.png" width="400"  />
+
 
 - From the technical perspective, what are the roles of RSA in both scenarios?
 
@@ -63,6 +69,7 @@ However, in Bitcoin, after the sender and recipient identities are authenticated
 
 In Datong Token, it is the human users (Sender, Recipient, Agents) who will perform the operations as specified in the token.
 
+#### Summary
 
 Consider a simple act of tipping an Instamgrammer in a developing country like Vietnam using Datong Token.
 
