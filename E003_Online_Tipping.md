@@ -92,7 +92,7 @@ As a result, agents using cryptocurrencies will have much greater demand for int
 
 Datong Token immediately solves the adoption problem of cryptocurrencies. Conventionally, the sender and the recipient both have to create a personal account for the cryptocurrency concerned. This has become the biggest obstacle for users to adopt cryptocurrencies as well as any transactional systems. 
 
-In Datong Token, the mechanisms involved in a cryptocurrency transaction are broken down to the bare minimum. In the scenario described above for payment using Datong Token, the sender and recipient do not need to create personal accounts on Datong system. 
+In Datong Token, the mechanisms involved in a cryptocurrency transaction are broken down to the bare minimum. In the scenario described above for payment using Datong Token, the sender and recipient do not need to create personal accounts on Datong system, as the public key (and private key) or each user can be generated randomly at anytime. This fundamentally change the understanding of identity and communications.
 
 After Sender A sends the token to Recipient B, presumably via a mobile chat service such as WhatsApp, Sender B will use a Datong app to process then token, then send a new token to Agent C. Agent C again will use a Datong app to process the token, and send a new token to Agent D. Agent D will also use a Datong app to process the token, and send a new token to Sender A.
 
