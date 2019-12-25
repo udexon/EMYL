@@ -16,7 +16,7 @@ Consider a scenario where Sender A who lives in country P wishes to send an amou
 
 Step 1: Verifying payment chain (identifying Agents)
 
-(Add diagram to illustrate chain of messages A --> B --> D --> C --> A )
+<img src="https://github.com/udexon/DatongToken/blob/master/payment_chain.png" width="400"  />
 
 <ol type="a">
   <li>- Sender A requests Recipient B's public key. </li>
