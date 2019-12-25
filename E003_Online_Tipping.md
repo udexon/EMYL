@@ -19,7 +19,7 @@ Step 1: Verifying payment chain (identifying Agents)
 <img src="https://github.com/udexon/DatongToken/blob/master/payment_chain.png" width="400"  />
 
 <ol type="a">
-  <li>- Sender A requests Recipient B's public key. </li>
+  <li>- Sender A wishes to tip Recipient B. A leaves a comment on B's social media post (Facebook, Instagram, YouTube, etc.) comprising a short link to A's Datong Token, together with the tipping amount, as well as other details. B then open the short link using Datong app and begins a chat session with A. Sender A then requests Recipient B's public key. </li>
   <li>- Recipient B sends own public key PBKB to sender A. </li>
 
   <li>- Sender A first encrypt a raw message MA1 with own public key PBKA as encrypted messages CA1. </li>
@@ -90,7 +90,7 @@ As a result, agents using cryptocurrencies will have much greater demand for int
 
 #### (Non)-Adoption of Cryptocurrencies
 
-Datong Token immediately solves the adoption problem of cryptocurrencies. In order for a particular cryptocurrency to be useful, by definition, the sender and the recipient both have to create a personal account for the cryptocurrency concerned.
+Datong Token immediately solves the adoption problem of cryptocurrencies. Conventionally, the sender and the recipient both have to create a personal account for the cryptocurrency concerned. This has become the biggest obstacle for users to adopt cryptocurrencies as well as any transactional systems. 
 
 In Datong Token, the mechanisms involved in a cryptocurrency transaction are broken down to the bare minimum. In the scenario described above for payment using Datong Token, the sender and recipient do not need to create personal accounts on Datong system. 
 
