@@ -34,7 +34,7 @@ Step 1: Verifying payment chain (identifying Agents)
 <li>- Agent C then sends message CA1 back to Sender A, who then decrypts CA1 to verify that Agent C obtained CA1 via a chain of agents from Recipient B. </li>
 </ol>
 
-Step 2: Execute payment transactions
+Step 2: Carry out payment transactions
 
 <img src="https://github.com/udexon/DatongToken/blob/master/pay_wu.png" width="400"  />
 
