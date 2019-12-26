@@ -77,6 +77,10 @@ Firstly, as with Bitcoin, we use RSA cryptosystem to authenticate the users (Sen
 
 However, in Bitcoin, after the sender and recipient identities are authenticated, the programs concerned automatically carry out a series of operations to deduct the balance from the wallet of the sender and add the exact same amount in the recipient's wallet (which can be either in software or hardware).
 
+- (need to elaborate RSA?)
+
+https://en.bitcoin.it/wiki/Transaction
+
 In Datong Token, it is the human users (Sender, Recipient, Agents) who will perform the operations as specified in the token.
 
 
