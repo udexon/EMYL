@@ -1,16 +1,14 @@
-### Online Tipping -- Outside China -- 支外宝
+### Datong Token Online Tipping -- Outside China -- 支外宝
 
 Online tipping is one of the most lucrative captive markets nowadays. China and users of Chinese apps are ahead of the rest of the world in this area with their online payment systems which enables tipping down to a single cent.
 
-Datong Token (name? Datong Tipping？) problems ....
-
 https://en.wikipedia.org/wiki/Software_token
 
-#### Scenario 1: Datong Token with Western Union
+#### Scenario I: Datong Token with Western Union
 
 <img src="https://github.com/udexon/DatongToken/blob/master/pay_wu.png" width="400"  />
 
-Scenario 1 involves an international conventional payment method (Western Union) without cryptocurrency so that users can confirm that Datong Token can be used without cryptocurrency.
+Scenario I involves an international conventional payment method (Western Union) without cryptocurrency so that users can confirm that Datong Token can be used without cryptocurrency.
 
 Consider a scenario where Sender A who lives in country P wishes to send an amount X in currency K to Recipient B who lives in country Q.
 
@@ -19,13 +17,13 @@ Step 1: Verifying payment chain (identifying Agents)
 <img src="https://github.com/udexon/DatongToken/blob/master/payment_chain.png" width="400"  />
 
 <ol type="a">
-  <li>- Sender A wishes to tip Recipient B. A leaves a comment on B's social media post (Facebook, Instagram, YouTube, etc.) comprising a short link to A's Datong Token, together with the tipping amount, as well as other details. B then opens the short link using Datong app and begins a chat session with A. Sender A then requests Recipient B's public key. </li>
-  <li>- Recipient B sends own public key PBKB to sender A. </li>
+  <li> Sender A wishes to tip Recipient B. A leaves a comment on B's social media post (Facebook, Instagram, YouTube, etc.) comprising a short link to A's Datong Token, together with the tipping amount, as well as other details. B then opens the short link using Datong app and begins a chat session with A. Sender A then requests Recipient B's public key. </li>
+  <li> Recipient B sends own public key PBKB to sender A. </li>
 
-  <li>- Sender A first encrypt a raw message MA1 with own public key PBKA as encrypted messages CA1. </li>
-  <li>- Sender A then encrypt encrypted message CA1 with Recipient B's public key PBKB as encrypted message CA2.</li>
-  <li>- Sender A sends CA2 to Recipient B. </li>
-  <li>- Recipient B decrypts CA2 using own private key PVKB. </li>
+  <li> Sender A first encrypt a raw message MA1 with own public key PBKA as encrypted messages CA1. </li>
+  <li> Sender A then encrypt encrypted message CA1 with Recipient B's public key PBKB as encrypted message CA2.</li>
+  <li> Sender A sends CA2 to Recipient B. </li>
+  <li> Recipient B decrypts CA2 using own private key PVKB. </li>
 
 <li> Sender A must include own public key in payment token, so that Recipient B can encrypt message MB and send it to Agent D, who lives in the same country Q as B. </li>
 
@@ -43,19 +41,20 @@ Step 2: Carry out payment transactions
 - Agent D can then pay Recipient B cash physically in person, or using the national banking system in country Q.
 
 
-#### Scenario 2: Datong Token with Cryptocurrency
+#### Scenario II: Datong Token with Cryptocurrency
 
 Now consider this variation:
 
 -- Agent C sends money using cryptocurrency L to Agent D.
 
+<img src="https://github.com/udexon/DatongToken/blob/master/pay_bch.png" width="400"  />
 
 ### Novel Applications of Public Key Encryption
 
 
 Let's illustrate the two scenarios in diagrams:
 
-<img src="https://github.com/udexon/DatongToken/blob/master/pay_bch.png" width="400"  />
+
 
 <img src="https://github.com/udexon/DatongToken/blob/master/pay_wu.png" width="400"  />
 
@@ -137,3 +136,5 @@ B only has to download a Datong app and use it to generate her (his) own public 
 B will then send her public key BPBK to an agent C, together with message M, using the Datong app.
 
 C would need to find an Agent D in the home country of Sender A, who would then collect the payment from A in their national currency using their national banking system. C would pass the message from B to D. D would send the message to A to verify the transaction. The chain of payments as described above will be performed to complete the transaction.
+
+Datong Token (name? Datong Tipping？) problems ....
