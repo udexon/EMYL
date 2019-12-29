@@ -60,14 +60,6 @@ Let's illustrate the two scenarios in diagrams:
 
 We now have sufficient understanding to compare and analyse various fundamental issues concerning international financial transactions, cryptocurrencies and Datong Token.
 
-(Prefix each paragraph with one line of indented question or graph oriented topic / section. Arrange section headings. Merge small paragraphs. Make big headings. Remove small headings.)
-
-- From the technical perspective, what are the roles of RSA in both scenarios?
-- Minimizing agent fees
-- (Non)-Adoption of Cryptocurrencies
-- Datong app -- meaning?
-- Punchline? Linux and Datong Token both being simple but has great impact?
-
 
 
 - From the technical perspective, what are the roles of RSA in both scenarios?
@@ -77,11 +69,9 @@ Firstly, as with Bitcoin, we use RSA cryptosystem to authenticate the users (Sen
 However, in Bitcoin, after the sender and recipient identities are authenticated, the programs concerned automatically carry out a series of operations to deduct the balance from the wallet of the sender and add the exact same amount in the recipient's wallet (which can be either in software or hardware).
 
 
-
 https://en.bitcoin.it/wiki/Transaction
 
 In Datong Token, it is the human users (Sender, Recipient, Agents) who will perform the operations as specified in the token.
-
 
 - Minimizing agent fees
 
@@ -116,30 +106,3 @@ Finally, Sender A will use a Datong app to verify the token from Agent C, to con
 
 
 
-
-
-
-The Sender A only has to send the Recipient B a text message M, consisting of A's public key APBK, and tip amount X in a local currency, e.g. Vietnam Dong (VND).
-
-At this point, B does not have a Datong account yet. She (he) received the message M from A via private message, or possibly in an Instagram comment, which is publicly viewable. This might be done for promotional purposes, i.e. to show off to other followers.
-
-B only has to download a Datong app and use it to generate her (his) own public key BPBK.
-
-B will then send her public key BPBK to an agent C, together with message M, using the Datong app.
-
-C would need to find an Agent D in the home country of Sender A, who would then collect the payment from A in their national currency using their national banking system. C would pass the message from B to D. D would send the message to A to verify the transaction. The chain of payments as described above will be performed to complete the transaction.
-
-Datong Token (name? Datong Tipping？) problems ....
-
-- Repeat the above only?
-
-- (need to elaborate RSA?)
-
-- Repeat?
-
-- Datong app -- meaning?
-
-(We use the term "a Datong app" to imply the fact that third parties may produce apps that comply to the Datong protocols.)
-
-
-- Punchline?
