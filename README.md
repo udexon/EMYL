@@ -26,6 +26,6 @@ with their own investors.
 yourself as an EMYL agent, which qualifies yourself to
 recruit your own EMYL agents:
 
-- [EMYL#001](https://github.com/udexon/EMYL/blob/master/EMYL_001.md)
+- [EMYL#001 Phos Stack Machine Shell and Datong Token Examples](https://github.com/udexon/EMYL/blob/master/EMYL_001.md)
 
 5. If you are owner of any software repository on github or elsewhere (open source or propreitary), you are welcome to collaborate with us, as EMYL can be interfaced to any existing programming language using the UCollab platform.
