@@ -6,7 +6,7 @@ How is it possible to make as much money as a _Facebook programmer_ or a _Bitcoi
 
 1. Or is this just another money game scam?
 
-EMYL is a CLOUDLESS free software / open source project:
+EMYL is a _CLOUDLESS_ free software / open source project:
 
 - You can inspect every line of code in the project;
 - You will run part of the code in your personal computer or mobile phone;
