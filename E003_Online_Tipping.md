@@ -54,9 +54,9 @@ Now consider this variation:
 
 Let's illustrate the two scenarios in diagrams:
 
-
-
 <img src="https://github.com/udexon/DatongToken/blob/master/pay_wu.png" width="400"  />
+
+<img src="https://github.com/udexon/DatongToken/blob/master/pay_bch.png" width="400"  />
 
 We now have sufficient understanding to compare and analyse various fundamental issues concerning international financial transactions, cryptocurrencies and Datong Token.
 
@@ -123,7 +123,6 @@ Just like HTML and Linux, something small and simple can replicate worldwide and
 
 #### Summary
 
-- Repeat the above only?
 
 Consider a simple act of tipping an Instamgrammer in a developing country like Vietnam using Datong Token.
 
@@ -138,3 +137,5 @@ B will then send her public key BPBK to an agent C, together with message M, usi
 C would need to find an Agent D in the home country of Sender A, who would then collect the payment from A in their national currency using their national banking system. C would pass the message from B to D. D would send the message to A to verify the transaction. The chain of payments as described above will be performed to complete the transaction.
 
 Datong Token (name? Datong Tipping？) problems ....
+
+- Repeat the above only?
