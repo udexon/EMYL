@@ -1,4 +1,4 @@
-### Datong Token Online Tipping -- Outside China -- 支外宝
+### Datong Token Online Tipping -- Outside China -- 大同支外宝
 
 Online tipping is one of the most lucrative captive markets nowadays. China and users of Chinese apps are ahead of the rest of the world in this area with their online payment systems which enables tipping down to a single cent. Just like HTML and Linux, something small and simple can replicate worldwide and become revolutionary.
 
