@@ -98,6 +98,12 @@ Datong Token immediately solves the adoption problem of cryptocurrencies. Conven
 
 In Datong Token, the mechanisms involved in a cryptocurrency transaction are broken down to the bare minimum. In the scenario described above for payment using Datong Token, the sender and recipient do not need to create personal accounts on Datong system, as the public key (and private key) or each user can be generated randomly at anytime. This fundamentally change the understanding of identity and communications.
 
+
+
+#### Summary
+
+Consider a simple act of tipping an Instamgrammer in Vietnam using Datong Token.
+
 Sender A indicates his (her) wish to tip Recipient B, by leaving a comment on B's social media post (Facebook, Instagram, YouTube, etc.) comprising a short link to A's Datong Token, together with the tipping amount, as well as other details. A may also send the initial short link and meesages via a private chat app such as WhatsApp.
 
 B then opens the short link using Datong app and begins a chat session with A. Sender A then requests Recipient B's public key.
@@ -112,10 +118,6 @@ Finally, Sender A will use a Datong app to verify the token from Agent C, to con
 
 
 
-
-#### Summary
-
-Consider a simple act of tipping an Instamgrammer in a developing country like Vietnam using Datong Token.
 
 The Sender A only has to send the Recipient B a text message M, consisting of A's public key APBK, and tip amount X in a local currency, e.g. Vietnam Dong (VND).
 
