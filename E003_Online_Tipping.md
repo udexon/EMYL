@@ -1,6 +1,6 @@
 ### Datong Token Online Tipping -- Outside China -- 支外宝
 
-Online tipping is one of the most lucrative captive markets nowadays. China and users of Chinese apps are ahead of the rest of the world in this area with their online payment systems which enables tipping down to a single cent.
+Online tipping is one of the most lucrative captive markets nowadays. China and users of Chinese apps are ahead of the rest of the world in this area with their online payment systems which enables tipping down to a single cent. Just like HTML and Linux, something small and simple can replicate worldwide and become revolutionary.
 
 https://en.wikipedia.org/wiki/Software_token
 
@@ -27,9 +27,9 @@ Step 1: Verifying payment chain (identifying Agents)
 
 <li> Sender A must include own public key in payment token, so that Recipient B can encrypt message MB and send it to Agent D, who lives in the same country Q as B. </li>
 
-<li>- Then Agent D can send an encrypted message to Agent C, who lives in the same country P as Sender A, to verify payment. </li>
+<li> Then Agent D can send an encrypted message to Agent C, who lives in the same country P as Sender A, to verify payment. </li>
 
-<li>- Agent C then sends message CA1 back to Sender A, who then decrypts CA1 to verify that Agent C obtained CA1 via a chain of agents from Recipient B. </li>
+<li> Agent C then sends message CA1 back to Sender A, who then decrypts CA1 to verify that Agent C obtained CA1 via a chain of agents from Recipient B. </li>
 </ol>
 
 Step 2: Carry out payment transactions
@@ -76,7 +76,7 @@ Firstly, as with Bitcoin, we use RSA cryptosystem to authenticate the users (Sen
 
 However, in Bitcoin, after the sender and recipient identities are authenticated, the programs concerned automatically carry out a series of operations to deduct the balance from the wallet of the sender and add the exact same amount in the recipient's wallet (which can be either in software or hardware).
 
-- (need to elaborate RSA?)
+
 
 https://en.bitcoin.it/wiki/Transaction
 
@@ -100,8 +100,6 @@ In Datong Token, the mechanisms involved in a cryptocurrency transaction are bro
 
 Sender A indicates his (her) wish to tip Recipient B, by leaving a comment on B's social media post (Facebook, Instagram, YouTube, etc.) comprising a short link to A's Datong Token, together with the tipping amount, as well as other details. A may also send the initial short link and meesages via a private chat app such as WhatsApp.
 
-- Repeat?
-
 B then opens the short link using Datong app and begins a chat session with A. Sender A then requests Recipient B's public key.
 
 After Sender A sends the token to Recipient B, presumably via a mobile chat service such as WhatsApp, Sender B will use a Datong app to process then token, then send a new token to Agent C. Agent C again will use a Datong app to process the token, and send a new token to Agent D. Agent D will also use a Datong app to process the token, and send a new token to Sender A.
@@ -111,18 +109,11 @@ All the transmissions of token can be done by sending text messages on chat apps
 Finally, Sender A will use a Datong app to verify the token from Agent C, to confirm that Agent C is an authorized agent who will send money via conventional means to Agent D, and Agent D will send money via conventional means to Recipient B. After this confirmation, Sender A may send money to Agent C via conventional means, to initiate the transaction. 
 
 
-- Datong app -- meaning?
-
-(We use the term "a Datong app" to imply the fact that third parties may produce apps that comply to the Datong protocols.)
 
 
-- Punchline?
-
-Just like HTML and Linux, something small and simple can replicate worldwide and become revolutionary.
 
 
 #### Summary
-
 
 Consider a simple act of tipping an Instamgrammer in a developing country like Vietnam using Datong Token.
 
@@ -139,3 +130,14 @@ C would need to find an Agent D in the home country of Sender A, who would then 
 Datong Token (name? Datong Tipping？) problems ....
 
 - Repeat the above only?
+
+- (need to elaborate RSA?)
+
+- Repeat?
+
+- Datong app -- meaning?
+
+(We use the term "a Datong app" to imply the fact that third parties may produce apps that comply to the Datong protocols.)
+
+
+- Punchline?
