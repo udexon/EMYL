@@ -1,4 +1,4 @@
-### EMYL: _Earn Money as You Learn_
+### EMYL: _Earn Money as You Learn_ -- A _CLOUDLESS_ Open Source Platform to Learn Programming, _One Word At A Time_, using Forth like Reverse Polish Notation, rewarded with Cryptocurrencies
 
 Is it possible to ___Earn Money as You Learn___?
 
@@ -19,7 +19,7 @@ architecture of EMYL and implement their own version,
 with their own investors.
  
 3. The biggest breakthroughs in EMYL are the following:
-- [Datong Token](https://github.com/udexon/DatongToken): a breakthrough in public key cryptography, a secret hidden in plain sight (literally) that enables the rest of 99% of ordinary users to enjoy using cryptocurrencies WITHOUT creating a login at any existing server.
+- [Datong Token](https://github.com/udexon/DatongToken/blob/master/Datong_Token_Overview.md): a breakthrough in public key cryptography, a secret hidden in plain sight (literally) that enables the rest of 99% of ordinary users to enjoy using cryptocurrencies WITHOUT creating a login at any existing server.
 - [UCollab](https://github.com/udexon/UCollab): a breakthrough in programming and mathematics, enabling anyone, from beginners to experts, to learn a new programming language as well as abstract mathematics, using ___only one universal script, Phos___ (Forth like Reverse Polish Notation), ___one token at a time___. 
 
 4. Complete the following exercise to qualify
