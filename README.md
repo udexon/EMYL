@@ -9,7 +9,7 @@ How is it possible to make as much money as a _Facebook programmer_ or a _Bitcoi
 EMYL is a _CLOUDLESS_ free software / open source project:
 
 - You can inspect every line of code in the project;
-- You will run part of the code in your personal computer or mobile phone;
+- You will run part of the code in your personal computer or mobile phone as a server node;
 - You are free to inspect and modify the license agreement.
 
 Therefore, it is not possible to cheat you.
@@ -28,4 +28,4 @@ recruit your own EMYL agents:
 
 - [EMYL#001 Phos Stack Machine Shell and Datong Token Examples](https://github.com/udexon/EMYL/blob/master/EMYL_001.md)
 
-5. If you are owner of any software repository on github or elsewhere (open source or propreitary), you are welcome to collaborate with us, as EMYL can be interfaced to any existing programming language using the UCollab platform.
+5. If you are the owner of any software repository on github or elsewhere (open source or propreitary), you are welcome to collaborate with us, as EMYL can be interfaced to any existing programming language using the UCollab platform.
