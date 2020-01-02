@@ -28,16 +28,16 @@ The Phos engine is a stack machine shell (smashlet), as it is a shell (capable o
 Prior to Phos stack machine shell (smashlet), Forth has been ported to various high level programming languages, besides running on almost all known microprocessor architectures, due to its simplicity and elegance. However, conventional Forth ports in high level programming languages (software Forth) concentrate on porting the full Forth vocabulary (making it difficult for beginners to learn) and not emphasizing on integrating with function libraries of the host programming language, which Phos aims to correct. As such, Phos has the potential to become a universal script that can be used to interface to all known programming languages. We believe this is a huge step towards technological singularity.
 
 The major benefits of Phos smashlet are:
-- A Forth like vocabulary (function database) spanning ALL known programming languages can be constructed
-- Forth and Phos, being homoiconic, can be use to construct self evaluating metaprogram -- programs that generates other programs in the same programming language and analyse them. This is critical to achieve Artificial General Intelligence
+- A Forth like vocabulary (function database) spanning ALL known programming languages can be constructed;
+- Forth and Phos, being homoiconic, can be use to construct ___self evaluating metaprograms___ -- programs that generates other programs in the same programming language and analyse them. This is critical to achieve Artificial General Intelligence;
 - Forth and Phos can be generalized as mathematical notations. The learning of programming and mathematics can be simplified with a systematic "learn one word at a time" approach, yet another unprecedented breakthrough in the history of computing and mathematics.
 
 Based on the above, the hard metrics towards singularity that we propose are:
-- the number of Phos/Forth words mapping across all programming languages
-- the number of programmers involved in homoiconic programming
+- the number of Phos/Forth words mapping across all programming languages;
+- the number of programmers involved in homoiconic programming;
 - the level of sophistication in homoiconic programming, e.g. unification with mathematics, self evaluating code, etc.
 
-To be consistent with the spirit of science, our theories are of course open to scrutiny and challenges. We welcome alternative theories to be compared to ours, using rational analysis of course, but not toxic unsubstantiated   criticism.
+To be consistent with the spirit of science, our theories are of course open to scrutiny and challenges. We welcome alternative theories to be compared to ours, using rational analysis of course, but not toxic unsubstantiated criticism.
 
 The weakest link in our theories is the adoption by new programmers. Of course the rate of adoption of new theories very much depends on how well the tutorials are written. This is an area which we welcome collaboration.
 
