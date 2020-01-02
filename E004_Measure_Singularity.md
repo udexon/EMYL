@@ -1,6 +1,6 @@
 ### Measuring the Progress towards Technological Singularity using Homoiconic Programming
 
-One of the biggest pitfalls in the debates about technological singularity is the lack of "hard" metrics for the progress towards singularity. This is highly unusual, in fact, completely unprecedented in the history of science and technology, where measurement is the foundation of everything.
+One of the biggest pitfalls in the debates about technological singularity is the lack of "hard" metrics (experiments, verifiable figures) for the progress towards singularity. This is highly unusual, in fact, completely unprecedented in the history of science and technology, where measurement is the foundation of everything.
 
 This could be due to the fact that singularity is in fact an intractable problem. As such, only "established" people above and beyond academic scrutiny such as Ray Kurzweil would dare give a hard number, yet without verifiable theoretical foundations or experiments.
 
