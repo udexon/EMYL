@@ -4,7 +4,7 @@ One of the biggest pitfalls in the debates about technological singularity is th
 
 This could be due to the fact that singularity is in fact an intractable problem. As such, only "established" people above and beyond academic scrutiny such as Ray Kurzweil would dare give a hard number, yet without verifiable theoretical foundations or experiments.
 
-As the Internet are full of toxic critics who by definition do not even care to read a single line of code before delivering judgement and condemnation, those of us who dare to attempt at measuring the progress towards singularity would just have to ignore them and seek out parties who are willing to engage in rational analysis and discussions.
+_As the Internet are full of toxic critics who by definition do not even care to read a single line of code before delivering judgement and condemnation, those of us who dare to attempt at measuring the progress towards singularity would just have to ignore them and seek out parties who are willing to engage in rational analysis and discussions._
 
 In order to filter toxic critics, here is a simple test -- have a look at the following file:
 
