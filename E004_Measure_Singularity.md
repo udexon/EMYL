@@ -42,3 +42,5 @@ To be consistent with the spirit of science, our theories are of course open to 
 The weakest link in our theories is the adoption by new programmers. Of course the rate of adoption of new theories very much depends on how well the tutorials are written. This is an area which we welcome collaboration.
 
 Our conservative goals are to recruit 25 collaborators per quarter in 2020, achieving 100 collaborators by the end of 2020.
+
+Datong Token USD 10K transactions by end of 2020.
