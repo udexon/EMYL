@@ -1,7 +1,5 @@
 ### Measuring the Progress towards Technological Singularity using Homoiconic Programming
 
-
-
 One of the biggest pitfalls in the debates about technological singularity is the lack of "hard" metrics for the progress towards singularity. This is highly unusual, in fact, completely unprecedented in the history of science and technology, where measurement is the foundation of everything.
 
 This could be due to the fact that singularity is in fact an intractable problem. As such, only "established" people above and beyond academic scrutiny such as Ray Kurzweil would dare give a hard number, yet without verifiable theoretical foundations or experiments.
@@ -43,4 +41,4 @@ To be consistent with the spirit of science, our theories are of course open to 
 
 The weakest link in our theories is the adoption by new programmers. Of course the rate of adoption of new theories very much depends on how well the tutorials are written. This is an area which we welcome collaboration.
 
-
+Our conservative goals are to recruit 25 collaborators per quarter in 2020, achieving 100 collaborators by the end of 2020.
