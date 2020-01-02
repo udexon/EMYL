@@ -41,12 +41,14 @@ To be consistent with the spirit of science, our theories are of course open to 
 
 The weakest link in our theories is the adoption by new programmers. Of course the rate of adoption of new theories very much depends on how well the tutorials are written. This is an area which we welcome collaboration.
 
-Our conservative goals are to recruit 25 collaborators per quarter in 2020, achieving 100 collaborators by the end of 2020.
+Our goals are:
 
-Datong Token USD 10K transactions by end of 2020.
+1. to recruit 25 collaborators per quarter in 2020, achieving 100 collaborators by the end of 2020.
 
-Port robotics and game engine to Phos by end of 2020.
+2. Datong Token to achieve total of USD 10K transactions by end of 2020.
 
-Begin work on computer algebra system by end of 2020. Find people to start work on this.
+3. Port robotics and game engine to Phos by end of 2020.
 
-Start work on self evaluating code by end of 2020. Find people to start work on this.
+4. Begin work on computer algebra system by end of 2020. Find people to start work on this.
+
+5. Start work on self evaluating code by end of 2020. Find people to start work on this.
