@@ -46,3 +46,7 @@ Our conservative goals are to recruit 25 collaborators per quarter in 2020, achi
 Datong Token USD 10K transactions by end of 2020.
 
 Port robotics and game engine to Phos by end of 2020.
+
+Begin work on computer algebra system by end of 2020. Find people to start work on this.
+
+Start work on self evaluating code by end of 2020. Find people to start work on this.
