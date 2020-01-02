@@ -43,12 +43,12 @@ The weakest link in our theories is the adoption by new programmers. Of course t
 
 Our goals are:
 
-1. to recruit 25 collaborators per quarter in 2020, achieving 100 collaborators by the end of 2020.
+1. To recruit 25 collaborators per quarter in 2020, achieving 100 collaborators by the end of 2020.
 
-2. Datong Token to achieve total of USD 10K transactions by end of 2020.
+2. [ Datong Token ](https://github.com/udexon/DatongToken/blob/master/Datong_3_in_1.md) to achieve total of USD 10K transactions by end of 2020.
 
 3. Port robotics and game engine to Phos by end of 2020.
 
-4. Begin work on computer algebra system by end of 2020. Find people to start work on this.
+4. Start work on computer algebra system by end of 2020. Find people to start work on this.
 
 5. Start work on self evaluating code by end of 2020. Find people to start work on this.
