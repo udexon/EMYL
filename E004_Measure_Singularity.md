@@ -12,11 +12,13 @@ In order to filter toxic critics, here is a simple test -- have a look at the fo
 
 http://phos.epizy.com/smashlet/pdo/fgl.js
 
-https://github.com/udexon/Homoiconism/blob/master/Q23_Phos_Smashlet.md
-
 This is the source code for "homoiconic transformation", a procedure to transform Forth like Reverse Polish Notation (homoiconic code) into a non-homoiconic host programming language, in this case, JavaScript. We call our implementation of the Reverse Polish Notation "Phos" to distinguish from traditional Forth.
 
-We have demonstrated that it is possible to perform homoiconic transformation in many high level programming languages. We believe it can be done for all known programming language. However, the proof itself needs to be written in Forth like Reverse Polish Notation. As such, it will take time to develop the vocabulary (function database) to perform the proof.
+We have demonstrated that it is possible to perform homoiconic transformation in many high level programming languages, as shown in the examples below:
+
+https://github.com/udexon/Homoiconism/blob/master/Q23_Phos_Smashlet.md
+
+We believe that Phos Stack Machine Shelll (Smashlet) can be ported to all known programming language, by translating the Phos engine code, as shown in the examples above. However, a rigourous mathematical proof itself (i.e. that Phos Smashlet can be ported to any known programming language) needs to be written in Forth like Reverse Polish Notation. As such, it will take time to develop the vocabulary (function database) to perform the proof.
 
 We believe any programmer with half a year of programming experience is capable of rewriting Phos engine in a programming language of his (her) choice, as it merely consists of:
 - parsing a space delimited string (Reverse Polish Notation) into a list of tokens
